@@ -1,7 +1,7 @@
 import ReviewTextOne from "./review-text-one";
 import ReviewTextTwo from "./review-text-two";
 
-const Article = () => {
+function Article() {
   return (
     <article className="section">
       <header className="article-header">
