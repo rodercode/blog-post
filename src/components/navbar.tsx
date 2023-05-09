@@ -5,13 +5,15 @@ import { faPen } from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <a href="#">
+      <a className="link" href="#">
         <FontAwesomeIcon icon={faHouse} />
       </a>
-      <a href="#">
+      <a className="link" href="#">
         <FontAwesomeIcon icon={faPen} /> {"Daily Post"}
       </a>
-      <a href="#">Search</a>
+      <a className="link" href="#">
+        Search
+      </a>
     </nav>
   );
 };

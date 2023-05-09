@@ -2,5 +2,55 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  padding: 2em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.headline-link {
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #bf1313;
+}
+
+h2 {
+  font-size: 2.125em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 2.125em;
+  color: #bf1313;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 1.125rem;
+  margin-bottom: 1em;
+  line-height: 28px;
+  color: #252627;
+}
+
+a {
+  text-decoration: none;
+  color: #252627;
+  text-transform: uppercase;
 }/*# sourceMappingURL=main.css.map */
