@@ -2,6 +2,7 @@ const ReviewTextTwo = () => {
   return (
     <div>
       <h3>Lightsabers are, of course, the stars of the war.</h3>
+      <hr />
       <p>
         After dabbling in the single, double-bladed, and dual-wielding stances
         that carry over from Fallen Order, I settled on the two new ones: the
